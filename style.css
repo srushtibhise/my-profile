@@ -41,9 +41,20 @@ h1{
     float:left;
     float:inline-start;
 }
+.AboutMe>img{
+    width:200px; 
+    height:200px;
+}
+#information{
+    color: black; 
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    height: 200px;
+}
 
 
-
+/*skills*/
 .skills{
     text-align: center;
     height: 100px;
@@ -63,11 +74,14 @@ h1{
     float: left;
     margin-left: 3%;
     color: white;
+    border-radius: 17%;
+    box-shadow: 20px -7px 12px  gray;
 }
 .quali> img {
     width:200px;
     height:200px;
     float: left;
+    border-radius: 17%;
 }
 .quali> span{
 text-align: center;
@@ -86,24 +100,32 @@ font-size: 30px;
     font-size: 30px;
     margin-left: 3%;
     color: white;
+    border-radius: 20%;
+    box-shadow: 20px -7px 12px  gray;
 }
 .hobbies> img{
     height: 200px;
     width:200px;
     float: left;
+    border-radius: 20%;
 }
 .hobbies> p{
     text-align: center;
     font-style: italic;
 }
+/*
 .map{
     height: 350px;
-    float: left;
+   
+   
+   
 }
+*/
 .form{
     text-align: center;
     font-style: italic;
 }
+
 
 #fullpage{
     width:100%;
@@ -118,3 +140,131 @@ font-size: 30px;
     height: 50px;
     width: 50px;
 }
+
+@media  screen and (max-width:1600px) {
+   
+    
+}
+@media  screen and (max-width:1400px) {
+   
+    .quali> img {
+        width:150px;
+        height:200px;
+    }
+    .quali> p{
+        font-size: 18px;
+    }
+    .hobbies> img{
+        height: 200px;
+        width:150px;
+        font-size: 29px;
+    }
+
+
+}
+@media  screen and (max-width:1200px) {
+    
+    .quali> img {
+        width: 121px;
+        height: 200px;
+    }
+    .quali>p{
+        font-size: 16px;
+    }
+    .quali>span{
+        font-size: 26px;
+    }
+    .hobbies{
+        font-size: 26px;
+    }
+    
+}
+@media  screen and (max-width:1000px) {
+   
+    .AboutMe>img{
+        width: 150px;
+         height:200px;
+    }
+    .quali> img {
+        width: 102px;
+        height: 200px;
+    }
+    .quali>span {
+        font-size: 19px;
+    }
+    .quali>p {
+        font-size: 14px;
+    }
+    .hobbies>img{
+        width: 108px;
+
+    }
+   
+
+
+}
+@media  screen and (max-width:800px) {
+   
+    .AboutMe>img {
+        width: 126px;
+        height: 174px;
+    }
+    #information{
+        font-size: 27px;
+    }
+    .quali> img {
+        width: 73px;
+    }
+    .quali>span {
+        font-size: 15px;
+    }
+    .quali>p{
+        font-size: 13px
+    }
+    .hobbies>img {
+        width: 85px;
+    }
+    .hobbies {
+        font-size: 22px;
+    }
+
+    
+    
+    
+}
+@media  screen and (max-width:600px) {
+   
+    .AboutMe>img {
+        width: 97px;
+        height: 148px;
+    }
+    #information {
+        font-size: 25px;
+    }
+   
+    .quali> img {
+        width: 59px;
+    }
+    .quali>span {
+        font-size: 11px;
+    }
+    .quali>p {
+        font-size: 10px;
+    }
+    .hobbies{
+        font-size: 18px;
+       
+    }
+    .hobbies>img {
+        width: 73px;
+    }
+}
+
+/*Media screen for Phone
+@media  screen and (max-width:500px) {
+    .quali{
+        display: block;
+    }
+    
+}
+*/
