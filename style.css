@@ -66,53 +66,8 @@ h1{
     width: 100px;
     height: 100px;
 }
-.quali
-{
-    height: 200px;
-    width:30%;
-    background-color: #226abd;
-    float: left;
-    margin-left: 3%;
-    color: white;
-    border-radius: 17%;
-    box-shadow: 20px -7px 12px  gray;
-}
-.quali> img {
-    width:200px;
-    height:200px;
-    float: left;
-    border-radius: 17%;
-}
-.quali> span{
-text-align: center;
-font-style: italic;
-font-size: 30px;
-}
-.quali> p{
-    text-align: center;
-    font-style: italic;
-}
-.hobbies{
-    height: 200px;
-    width:30%;
-    background-color: #7c2828;
-    float: left;
-    font-size: 30px;
-    margin-left: 3%;
-    color: white;
-    border-radius: 20%;
-    box-shadow: 20px -7px 12px  gray;
-}
-.hobbies> img{
-    height: 200px;
-    width:200px;
-    float: left;
-    border-radius: 20%;
-}
-.hobbies> p{
-    text-align: center;
-    font-style: italic;
-}
+
+
 /*
 .map{
     height: 350px;
