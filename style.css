@@ -1,7 +1,4 @@
-body{
-    margin: auto;
-    background-color: rgb(209, 205, 205);
-}
+
 header{
     text-decoration: none;
 }
@@ -95,7 +92,9 @@ h1{
     height: 50px;
     width: 50px;
 }
-
+.card:hover{
+    transform: scale(1.1);
+}
 @media  screen and (max-width:1600px) {
    
     
